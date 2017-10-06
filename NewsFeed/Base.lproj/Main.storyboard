@@ -11,6 +11,7 @@
     <customFonts key="customFonts">
         <array key="Palatino.ttc">
             <string>Palatino-Bold</string>
+            <string>Palatino-Italic</string>
             <string>Palatino-Roman</string>
         </array>
     </customFonts>
@@ -135,15 +136,35 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gsw-ad-yRv">
+                                                <rect key="frame" x="10" y="244.5" width="355" height="755.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="written by Jane Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EK-mu-SJO">
+                                                <rect key="frame" x="10" y="221" width="355" height="13.5"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Italic" family="Palatino" pointSize="12"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="kVX-QY-Uzl" firstAttribute="top" secondItem="F3e-di-a9L" secondAttribute="top" id="4Bi-Pf-RpK"/>
                                             <constraint firstAttribute="height" constant="1000" id="BsF-dD-aIA"/>
+                                            <constraint firstItem="0EK-mu-SJO" firstAttribute="leading" secondItem="F3e-di-a9L" secondAttribute="leading" constant="10" id="EDK-gH-ECD"/>
+                                            <constraint firstItem="Gsw-ad-yRv" firstAttribute="top" secondItem="0EK-mu-SJO" secondAttribute="bottom" constant="10" id="FfT-ym-kNd"/>
+                                            <constraint firstAttribute="bottom" secondItem="Gsw-ad-yRv" secondAttribute="bottom" id="Kof-O8-6dB"/>
                                             <constraint firstAttribute="trailing" secondItem="yTm-p3-ksG" secondAttribute="trailing" constant="10" id="Rbm-ny-j9j"/>
+                                            <constraint firstAttribute="trailing" secondItem="0EK-mu-SJO" secondAttribute="trailing" constant="10" id="a3o-R9-F74"/>
                                             <constraint firstItem="kVX-QY-Uzl" firstAttribute="centerX" secondItem="F3e-di-a9L" secondAttribute="centerX" id="avE-ct-5cP"/>
+                                            <constraint firstItem="0EK-mu-SJO" firstAttribute="top" secondItem="yTm-p3-ksG" secondAttribute="bottom" constant="8" id="bFT-By-0WF"/>
                                             <constraint firstItem="yTm-p3-ksG" firstAttribute="top" secondItem="kVX-QY-Uzl" secondAttribute="bottom" constant="8" id="ey9-1z-myU"/>
                                             <constraint firstItem="yTm-p3-ksG" firstAttribute="leading" secondItem="F3e-di-a9L" secondAttribute="leading" constant="10" id="fYg-mN-tag"/>
+                                            <constraint firstItem="Gsw-ad-yRv" firstAttribute="leading" secondItem="F3e-di-a9L" secondAttribute="leading" constant="10" id="hCl-15-tMe"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gsw-ad-yRv" secondAttribute="trailing" constant="10" id="oC4-jM-8eh"/>
                                             <constraint firstItem="kVX-QY-Uzl" firstAttribute="width" secondItem="F3e-di-a9L" secondAttribute="width" id="xVv-Hc-puh"/>
                                         </constraints>
                                     </view>
