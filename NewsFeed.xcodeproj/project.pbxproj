@@ -16,6 +16,15 @@
 		0D4A6F4A1F87D7DE008CD785 /* NewsFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A6F491F87D7DE008CD785 /* NewsFeedUITests.swift */; };
 		0D4A6F581F87DFD5008CD785 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A6F571F87DFD5008CD785 /* Constants.swift */; };
 		0D4A6F5A1F87E08B008CD785 /* NewsFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A6F591F87E08B008CD785 /* NewsFeedCollectionViewCell.swift */; };
+		0D6B4BD11F8D4598008E7EE8 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6B4BD01F8D4598008E7EE8 /* Article.swift */; };
+		0D6B4BD41F8D4ABE008E7EE8 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A6F2B1F87D7DE008CD785 /* NewsFeedViewController.swift */; };
+		0D6B4BD51F8D4ABE008E7EE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A6F291F87D7DE008CD785 /* AppDelegate.swift */; };
+		0D6B4BD61F8D4ABE008E7EE8 /* NewsFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A6F591F87E08B008CD785 /* NewsFeedCollectionViewCell.swift */; };
+		0D6B4BD71F8D4ABE008E7EE8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A6F571F87DFD5008CD785 /* Constants.swift */; };
+		0D6B4BD81F8D4ABE008E7EE8 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6B4BD01F8D4598008E7EE8 /* Article.swift */; };
+		0D6B4BDB1F8D4ABE008E7EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A6F321F87D7DE008CD785 /* LaunchScreen.storyboard */; };
+		0D6B4BDC1F8D4ABE008E7EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A6F301F87D7DE008CD785 /* Assets.xcassets */; };
+		0D6B4BDD1F8D4ABE008E7EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A6F2D1F87D7DE008CD785 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,9 @@
 		0D4A6F4B1F87D7DE008CD785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D4A6F571F87DFD5008CD785 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0D4A6F591F87E08B008CD785 /* NewsFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		0D6B4BD01F8D4598008E7EE8 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		0D6B4BE11F8D4ABE008E7EE8 /* NewsFeed [Dev].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsFeed [Dev].app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6B4BE21F8D4ABE008E7EE8 /* Info-dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-dev.plist"; path = "/Users/matt.catalfamo/git/NewsFeed/NewsFeed/Info-dev.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0D4A6F421F87D7DE008CD785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6B4BD91F8D4ABE008E7EE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,6 +113,7 @@
 				0D4A6F261F87D7DE008CD785 /* NewsFeed.app */,
 				0D4A6F3A1F87D7DE008CD785 /* NewsFeedTests.xctest */,
 				0D4A6F451F87D7DE008CD785 /* NewsFeedUITests.xctest */,
+				0D6B4BE11F8D4ABE008E7EE8 /* NewsFeed [Dev].app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +129,8 @@
 				0D4A6F301F87D7DE008CD785 /* Assets.xcassets */,
 				0D4A6F321F87D7DE008CD785 /* LaunchScreen.storyboard */,
 				0D4A6F351F87D7DE008CD785 /* Info.plist */,
+				0D6B4BE21F8D4ABE008E7EE8 /* Info-dev.plist */,
+				0D6B4BD01F8D4598008E7EE8 /* Article.swift */,
 			);
 			path = NewsFeed;
 			sourceTree = "<group>";
@@ -187,6 +209,23 @@
 			productReference = 0D4A6F451F87D7DE008CD785 /* NewsFeedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0D6B4BD21F8D4ABE008E7EE8 /* NewsFeed [Dev] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6B4BDE1F8D4ABE008E7EE8 /* Build configuration list for PBXNativeTarget "NewsFeed [Dev]" */;
+			buildPhases = (
+				0D6B4BD31F8D4ABE008E7EE8 /* Sources */,
+				0D6B4BD91F8D4ABE008E7EE8 /* Frameworks */,
+				0D6B4BDA1F8D4ABE008E7EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewsFeed [Dev]";
+			productName = NewsFeed;
+			productReference = 0D6B4BE11F8D4ABE008E7EE8 /* NewsFeed [Dev].app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +250,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0D4A6F251F87D7DE008CD785;
 					};
+					0D6B4BD21F8D4ABE008E7EE8 = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0D4A6F211F87D7DE008CD785 /* Build configuration list for PBXProject "NewsFeed" */;
@@ -227,6 +269,7 @@
 			projectRoot = "";
 			targets = (
 				0D4A6F251F87D7DE008CD785 /* NewsFeed */,
+				0D6B4BD21F8D4ABE008E7EE8 /* NewsFeed [Dev] */,
 				0D4A6F391F87D7DE008CD785 /* NewsFeedTests */,
 				0D4A6F441F87D7DE008CD785 /* NewsFeedUITests */,
 			);
@@ -258,6 +301,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D6B4BDA1F8D4ABE008E7EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6B4BDB1F8D4ABE008E7EE8 /* LaunchScreen.storyboard in Resources */,
+				0D6B4BDC1F8D4ABE008E7EE8 /* Assets.xcassets in Resources */,
+				0D6B4BDD1F8D4ABE008E7EE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -269,6 +322,7 @@
 				0D4A6F2A1F87D7DE008CD785 /* AppDelegate.swift in Sources */,
 				0D4A6F5A1F87E08B008CD785 /* NewsFeedCollectionViewCell.swift in Sources */,
 				0D4A6F581F87DFD5008CD785 /* Constants.swift in Sources */,
+				0D6B4BD11F8D4598008E7EE8 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +339,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4A6F4A1F87D7DE008CD785 /* NewsFeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6B4BD31F8D4ABE008E7EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6B4BD41F8D4ABE008E7EE8 /* NewsFeedViewController.swift in Sources */,
+				0D6B4BD51F8D4ABE008E7EE8 /* AppDelegate.swift in Sources */,
+				0D6B4BD61F8D4ABE008E7EE8 /* NewsFeedCollectionViewCell.swift in Sources */,
+				0D6B4BD71F8D4ABE008E7EE8 /* Constants.swift in Sources */,
+				0D6B4BD81F8D4ABE008E7EE8 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +586,36 @@
 			};
 			name = Release;
 		};
+		0D6B4BDF1F8D4ABE008E7EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NewsFeed/Info-dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattcatalfamo.NewsFeed-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D6B4BE01F8D4ABE008E7EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NewsFeed/Info-dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattcatalfamo.NewsFeed-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -555,6 +651,15 @@
 			buildConfigurations = (
 				0D4A6F551F87D7DE008CD785 /* Debug */,
 				0D4A6F561F87D7DE008CD785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6B4BDE1F8D4ABE008E7EE8 /* Build configuration list for PBXNativeTarget "NewsFeed [Dev]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6B4BDF1F8D4ABE008E7EE8 /* Debug */,
+				0D6B4BE01F8D4ABE008E7EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

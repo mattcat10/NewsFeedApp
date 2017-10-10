@@ -15,3 +15,13 @@ struct NewsFeedConstants {
 struct Segues {
     static let newsFeed_article = "newsFeed_article"
 }
+
+struct NewsAPI {
+    #if DEVELOPMENT
+    static let SERVER_URL = "http://dev.server.com/api/"
+    static let API_TOKEN = ""
+    #else
+    static let SERVER_URL = "http://prod.server.com/api/"
+    static let API_TOKEN = ""
+    #endif
+}
